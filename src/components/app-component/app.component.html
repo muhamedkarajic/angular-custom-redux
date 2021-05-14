@@ -1,1 +1,11 @@
-<h1>Hello World</h1>
+<h1>Global state</h1>
+<span>{{ store.state | async | json }}</span>
+
+<h1>Selected state</h1>
+<span>{{ date | async | json }}</span>
+
+<div>
+  <button (click)="set()">Set</button>
+  <button (click)="update()">Update</button>
+  <button (click)="delete()">Remove</button>
+</div>
