@@ -6,3 +6,4 @@ This redux store is based on the RxJS libery and is a redux that is built from s
 ## Packages
 1. ESLint
 2. Prettier
+3. RxJS
